@@ -1,0 +1,13 @@
+{
+	"originalLanguage": "ar",
+	"layers": [
+		{
+			"path": "ru",
+			"content": [
+				{
+					"path": "translation"
+				}
+			]
+		}
+	]
+}
