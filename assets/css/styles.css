@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'Scheherazade';
+	src: url('/assets/fonts/ScheherazadeNew-Regular.ttf');
+}
+
+/* NAVIGATION */
+
+.pageTitle {
+	font-family: Scheherazade;
+}
+
+.pageSubtitle {
+	font-size: small;
+	color: grey;
+}
+
+ion-label {
+	font-family: Scheherazade !important;
+	/* font-size: 1.3rem !important; */
+}
+
+.menuSubItem {
+	margin-top: 5px;
+	color: gray;
+	font-size: small;
+}
+
+.activeMenuItem .menuSubItem {
+	color: white;
+}
+
+/* PHRASES */
+
+.phrasesBlock {
+	/* max-width: 400px; */
+}
+
+.phraseBlock {
+	padding-inline: 5px;
+
+	margin-inline: 5px;
+	/* border: 1px solid rgba(255, 255, 255, 1); */
+	border-radius: 10px;
+}
+
+.phraseBlock .text {
+	font-family: 'Scheherazade';
+	font-size: 1.5rem;
+	direction: rtl;
+}
+
+.phraseBlock .phraseNum {
+	text-align: right;
+	font-size: 9px;
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+/* .phraseWrapper:nth-child(1) {
+	display: none;
+} */
+
+.phraseBlock.active .textTr,
+.phraseBlock.active .phraseNum {
+	color: lightgray;
+}
+
+.phraseBlock ion-button {
+	height: unset;
+	font-size: unset;
+	color: unset;
+	margin: unset;
+	z-index: 0;
+}
+
+.phraseBlock .textTr {
+	color: grey;
+	font-size: 14px;
+	text-align: right;
+}
+.phraseBlock.active {
+	position: relative;
+}
+.phraseBlock.active:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background: #3880ff;
+	filter: blur(10px);
+}

@@ -1,0 +1,28 @@
+[
+	{
+		"id": "hobbit",
+		"type": "folder",
+		"title": "The Hobbit",
+		"description": "J.R.R. Tolkien",
+		"content": [
+			{
+				"id": "001",
+				"title": "1.1. A comfortable hole ",
+				"mediaLink": "https://firebasestorage.googleapis.com/v0/b/frazy-7d371.appspot.com/o/hobbit%2Fhobbit1_1.mp3?alt=media&token=1c0cea21-1d4b-4501-8be5-07bf898d334f",
+				"type": "richMedia"
+			},
+			{
+				"id": "002",
+				"title": "1.2. Bilbo \"a second edition\" of his father ",
+				"mediaLink": "https://firebasestorage.googleapis.com/v0/b/frazy-7d371.appspot.com/o/hobbit%2Fhobbit1_2.mp3?alt=media&token=5886a790-d9fd-46f0-8385-6494254f3e45",
+				"type": "richMedia"
+			},
+			{
+				"id": "003",
+				"title": "1.3. Gandalf! ",
+				"mediaLink": "https://firebasestorage.googleapis.com/v0/b/frazy-7d371.appspot.com/o/hobbit%2Fhobbit1_3.mp3?alt=media&token=0ec8d78d-18c2-4b14-897e-45930cebd2a9",
+				"type": "richMedia"
+			}
+		]
+	}
+]
