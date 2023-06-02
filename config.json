@@ -1,12 +1,24 @@
 {
-	"originalLanguage": "ar",
-	"layers": [
+	"languages": [
 		{
-			"path": "ru",
-			"content": [
+			"code": "en",
+			"title": "English",
+			"layers": [
 				{
-					"path": "translation"
-				}
+					"code": "main",
+					"title": "main text with timings",
+					"checked": true,
+					"main": true
+				},
+				{ "code": "notes", "title": "notes" }
+			]
+		},
+		{
+			"code": "ru",
+			"title": "Russian",
+			"layers": [
+				{ "code": "main", "title": "translation", "checked": true },
+				{ "code": "transcription", "title": "transcription" }
 			]
 		}
 	]
