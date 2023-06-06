@@ -1,24 +1,41 @@
 {
-	"languages": [
+	"layers": [
 		{
-			"code": "en",
-			"title": "English",
-			"layers": [
-				{
-					"code": "main",
-					"title": "main text with timings",
-					"checked": true,
-					"main": true
-				},
-				{ "code": "notes", "title": "notes" }
-			]
+			"id": "ar",
+			"title": "Arabic",
+			"checked": true,
+			"main": true
 		},
 		{
-			"code": "ru",
+			"id": "ru",
 			"title": "Russian",
-			"layers": [
-				{ "code": "main", "title": "translation", "checked": true },
-				{ "code": "transcription", "title": "transcription" }
+			"checked": true
+		},
+		{
+			"id": "en",
+			"title": "English",
+			"checked": true
+		},
+		{
+			"id": "az",
+			"title": "Azerbaijani",
+			"content": [
+				{
+					"id": "literal-translation",
+					"title": "literal translation"
+				},
+				{
+					"id": "semantic-translation",
+					"title": "Semantic translation"
+				},
+				{
+					"id": "transcription",
+					"title": "Transcription",
+					"content": [
+						{ "id": "latin", "title": "Latin" },
+						{ "id": "cyrillic", "title": "Cyrillic" }
+					]
+				}
 			]
 		}
 	]
